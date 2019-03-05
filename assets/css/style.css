@@ -1,0 +1,51 @@
+#header {
+    text-align: center;
+    font-weight: bold;
+    padding: 30px;
+    margin: 20px;
+    font-size: 120px;
+}
+
+}
+.fixed-header, .fixed-footer{
+    width: 100%;
+    position: fixed;        
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+}
+.container {
+    width: 80%;
+}
+
+.fixed-header{
+    top: 0;
+}
+.fixed-footer{
+    bottom: 0;
+}
+body {
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+#wins {
+    width: 200px;
+}
+
+.underLine {
+    text-decoration: underline;
+}
+
+.score {
+text-align: center;
+font-weight: bold;
+text-decoration: underline;
+font-size: 48px;
+}
+
+.card {
+    float: left;
+    width: 100%;
+}

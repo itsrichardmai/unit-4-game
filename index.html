@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Crtstals Collector!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <script src="assets/javascript/game.js"></script>
+    </head>
+
+    <div class="container jumbotron">    
+    
+    <body>
+    <header id="header" class="fixed-header underline score">Crystal Collector!</header>
+    <br>
+
+    <div id="holderDiv" class="jumbotron container row col-xs-">
+        <section id="instructions" class="card">
+            <article class="card-body">
+                <h5 class="card-title underLine">Instructions</h5>
+                <p class="card-text">You will be given a random number at the start of the game.</p>
+                <p class="card-text">There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score</p>
+                <p class="card-text">You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+                <p class="card-text">Each time when the game starts, the game will change the values of each crystal</p>
+            </article>
+        </section>
+    <div class="card" width='200px' height='200px'><span id="totalScore" class="card-body score">0</span></div>
+    <div class="card" width='200px' height='200px'><span id="randomScore" class="card-body score">0</span></div>
+        <div class="card" width='200px' height='200px' >
+        <h2 class="card-text underLine">Wins and Losses</h2>
+            <div class="card-body">
+                <span id="wins">Wins: 0</span>
+                <br>
+                <span id="losses">Losses: 0</span>
+            </div>
+        </div>
+    </div>
+    <div id="imgDiv" class="col-xs-6">
+        <!--  <button type="button" id="crystalButton" class="btn btn-primary">1
+        <img src="https://www.soapqueen.com/wp-content/uploads/2017/08/Final-Crystal.jpg" width=200 height=200>
+        </button>
+        <button type="button" id="crystalButton" class="btn btn-primary">2
+        <img src="https://www.soapqueen.com/wp-content/uploads/2017/08/Final-Crystal.jpg" width=200 height=200>
+        </button>
+        <button type="button" id="crystalButton" class="btn btn-primary">3
+        <img src="https://www.soapqueen.com/wp-content/uploads/2017/08/Final-Crystal.jpg" width=200 height=200>
+        </button>
+        <button type="button" id="crystalButton" class="btn btn-primary">4
+        <img src="https://www.soapqueen.com/wp-content/uploads/2017/08/Final-Crystal.jpg" width=200 height=200>
+        </button> -->
+    </div>
+    
+    </body>
+    
