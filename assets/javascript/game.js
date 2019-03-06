@@ -79,9 +79,12 @@ function restart () {
         
         scoreValues[i] = Math.floor(Math.random() * 8 + 1);
 
+        $("#randomScore").html("Get This Score To Win!: " + randomScore)
         
-
         totalScore = 0;
+        
+        $("#totalScore").html("Your Score: " + totalScore);
+        
 
         crystalButton.attr('value', scoreValues[i]);
     }
