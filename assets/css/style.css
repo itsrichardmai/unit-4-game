@@ -1,21 +1,32 @@
 #header {
     text-align: center;
     font-weight: bold;
-    padding: 30px;
-    margin: 20px;
-    font-size: 120px;
+    padding: 10px;
+    margin: 010px;
+    font-size: 72px;
+    height: 100px;
+}
+body {
+    text-align: center;
 }
 
-}
 .fixed-header, .fixed-footer{
     width: 100%;
     position: fixed;        
     background: #333;
     padding: 10px 0;
     color: #fff;
+    z-index: 10;
+
 }
 .container {
-    width: 80%;
+    width: 100%;
+}
+
+#holderDiv {
+    width: 100%;
+    position: relative;
+    height: 1000px;
 }
 
 .fixed-header{
@@ -23,11 +34,9 @@
 }
 .fixed-footer{
     bottom: 0;
-}
-body {
-    margin: 0;
-    padding-top: 60px;
-    padding-bottom: 40px;
+    background-color: black;
+    color: white;
+    clear: both;
 }
 
 #wins {
@@ -46,6 +55,5 @@ font-size: 48px;
 }
 
 .card {
-    float: left;
     width: 100%;
 }
