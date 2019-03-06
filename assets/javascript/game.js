@@ -51,12 +51,14 @@ $(document).ready(function() {
                     alert("Congratulations! You Won!");
                     wins++;
                     $("#wins").html("Wins: " + wins);
+                    restart();
                     
                 }   else if (totalScore > randomScore) {
                     gameLost = true;
                     alert("RIP! You Lost!");
                     losses++; 
                     $("#losses").html("Losses: " + losses);
+                    restart();
                 }   else {
                     return;
                 }
@@ -77,7 +79,10 @@ function restart () {
         
         scoreValues[i] = Math.floor(Math.random() * 8 + 1);
 
+        
+
         totalScore = 0;
 
+        crystalButton.attr('value', scoreValues[i]);
     }
 }
